@@ -7,9 +7,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FormsComponent } from './components/forms/forms.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CardsListComponent } from './components/cards-list/cards-list.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FormsComponent],
+  declarations: [AppComponent, HeaderComponent, FormsComponent, CardsListComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
